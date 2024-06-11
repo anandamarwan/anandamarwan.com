@@ -1,18 +1,13 @@
-import github from "./assets/github.svg";
-import instagram from "./assets/instagram.svg";
-import linkedin from "./assets/linkedin.svg";
-import myPhoto from "./assets/photo.jpeg";
-
 export function App() {
   return (
-    <body className="ml-10 mt-5 mr-10 bg-slate-900">
-      <header className="">
-        <div>
+    <div className="p-10">
+      <header className="flex justify-between items-center">
+        <section>
           <a href="/" className="text-xl text-white hover:text-blue-300">
             🐼 Ananda Marwanaya Putra
           </a>
-        </div>
-        <div className="flex justify-end">
+        </section>
+        <nav className="flex justify-end">
           <ul className="flex flex-row gap-10 text-sm text-white">
             <li>
               <a href=""></a>About
@@ -23,8 +18,8 @@ export function App() {
                 <a href="https://github.com/anandamarwan">
                   <img
                     className="w-5 h-5 hover:bg-blue-300"
-                    src={github}
-                    alt="github"
+                    src="/images/github.svg"
+                    alt="GitHub"
                   />
                 </a>
               </li>
@@ -32,8 +27,8 @@ export function App() {
                 <a href="https://www.linkedin.com/in/anandamarwan/">
                   <img
                     className="w-5 h-5 hover:bg-blue-300"
-                    src={linkedin}
-                    alt="linkedin"
+                    src="/images/linkedin.svg"
+                    alt="LinkedIn"
                   />
                 </a>
               </li>
@@ -41,24 +36,25 @@ export function App() {
                 <a href="https://www.instagram.com/anandamarwanayaputra/">
                   <img
                     className="w-5 h-5 hover:bg-blue-300"
-                    src={instagram}
-                    alt="instagram"
+                    src="/images/instagram.svg"
+                    alt="Instagram"
                   />
                 </a>
               </li>
             </div>
           </ul>
-        </div>
+        </nav>
       </header>
 
       <main className="mt-4">
         <section className="m-20 flex flex-col text-center">
-          <div>
-            <h1 className="text-8xl">
-              <span className="text-blue-100">Hi! I'm</span>
+          <header>
+            <h1 className="text-6xl sm:text-7xl md:text-8xl">
+              <span className="text-blue-100">Hi! I'm </span>
               <span className="text-blue-400">Ananda</span>
             </h1>
-          </div>
+          </header>
+
           <div className="mt-5">
             <p className="text-xl text-slate-400">
               I’m a financial consultant who has 3 years of experience in the
@@ -71,7 +67,7 @@ export function App() {
               href="https://github.com/anandamarwan"
               className="focus:outline-none text-white bg-stone-800 hover:bg-stone-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:focus:ring-yellow-900"
             >
-              Github
+              GitHub
             </a>
             <a
               href="https://www.linkedin.com/in/anandamarwan/"
@@ -87,7 +83,11 @@ export function App() {
             </a>
           </div>
           <picture className="mt-4 content-center">
-            <img className="rounded w-96" src={myPhoto} alt="my photo" />
+            <img
+              className="rounded w-96"
+              src="/images/anandamarwan.jpeg"
+              alt="Ananda Marwan photo"
+            />
           </picture>
         </section>
 
@@ -120,6 +120,6 @@ export function App() {
       </main>
 
       <footer></footer>
-    </body>
+    </div>
   );
 }
