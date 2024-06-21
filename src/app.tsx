@@ -82,40 +82,121 @@ export function App() {
               Instagram
             </a>
           </div>
-          <picture className="mt-4 content-center">
-            <img
-              className="rounded w-96"
-              src="/images/anandamarwan.jpeg"
-              alt="Ananda Marwan photo"
-            />
+          <picture className="space-y-4">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+              <div className="grid gap-4">
+                <div>
+                  <img
+                    className="h-auto max-w-full rounded-lg"
+                    src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <img
+                    className="h-auto max-w-full rounded-lg"
+                    src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <img
+                    className="h-auto max-w-full rounded-lg"
+                    src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div className="grid gap-4">
+                <div>
+                  <img
+                    className="h-auto max-w-full rounded-lg"
+                    src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <img
+                    className="h-auto max-w-full rounded-lg"
+                    src="/images/anandamarwan.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <img
+                    className="h-auto max-w-full rounded-lg"
+                    src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div className="grid gap-4">
+                <div>
+                  <img
+                    className="h-auto max-w-full rounded-lg"
+                    src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <img
+                    className="h-auto max-w-full rounded-lg"
+                    src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <img
+                    className="h-auto max-w-full rounded-lg"
+                    src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
           </picture>
         </section>
 
-        <div>
-          <h1 className="text-3xl flex justify-center space-y-4">
-            Full Stack Developer
+        <div className="space-y-10 flex flex-col justify-center">
+          <h1 className="text-3xl font-bold flex justify-center">
+            Technical Skills
           </h1>
+
+          <div className="flex flex-row gap-20 justify-center">
+            <img
+              className="w-40 h-40 bg-slate-400"
+              src="/images/html.svg"
+              alt="HTML"
+            />
+
+            <img
+              className="w-40 h-40  bg-slate-400"
+              src="/images/css.svg"
+              alt="CSS"
+            />
+
+            <img
+              className="w-40 h-40 bg-slate-400"
+              src="/images/javascript1.svg"
+              alt="JavaScript1"
+            />
+
+            <img
+              className="w-40 h-40 bg-slate-400"
+              src="/images/typescript.svg"
+              alt="TypeScript"
+            />
+
+            <img
+              className="w-40 h-40 bg-slate-400"
+              src="/images/react.svg"
+              alt="React"
+            />
+          </div>
         </div>
 
-        <div className="rounded-md shadow-sm flex justify-center" role="group">
-          <button
-            type="button"
-            className="px-4 py-2 text-sm font-medium text-gray-900 bg-transparent border border-gray-900 rounded-s-lg hover:bg-gray-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700"
-          >
-            HTML
-          </button>
-          <button
-            type="button"
-            className="px-4 py-2 text-sm font-medium text-gray-900 bg-transparent border-t border-b border-gray-900 hover:bg-gray-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700"
-          >
-            CSS
-          </button>
-          <button
-            type="button"
-            className="px-4 py-2 text-sm font-medium text-gray-900 bg-transparent border border-gray-900 rounded-e-lg hover:bg-gray-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700"
-          >
-            JavaScript
-          </button>
+        <div className="flex justify-center p-10">
+          <h1 className="text-3xl font-bold">Portfolio of Apps</h1>
         </div>
       </main>
 
