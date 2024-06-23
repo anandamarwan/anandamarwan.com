@@ -9,41 +9,18 @@ export function App() {
             </a>
             <ul className="flex flex-row gap-10 text-sm text-white">
               <li>
-                <a href="/">Home</a>
+                <a href="/" className="text-xl">
+                  Home
+                </a>
               </li>
               <li>
-                <a href="">About</a>
+                <a href="" className="text-xl">
+                  About
+                </a>
               </li>
-              <li>Contact</li>
-              <div className="flex flex-row gap-4">
-                <li>
-                  <a href="https://github.com/anandamarwan">
-                    <img
-                      className="w-5 h-5 hover:bg-blue-300"
-                      src="/images/github.svg"
-                      alt="GitHub"
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.linkedin.com/in/anandamarwan/">
-                    <img
-                      className="w-5 h-5 hover:bg-blue-300"
-                      src="/images/linkedin.svg"
-                      alt="LinkedIn"
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.instagram.com/anandamarwanayaputra/">
-                    <img
-                      className="w-5 h-5 hover:bg-blue-300"
-                      src="/images/instagram.svg"
-                      alt="Instagram"
-                    />
-                  </a>
-                </li>
-              </div>
+              <li className="text-xl">
+                <a href="">Contact</a>
+              </li>
             </ul>
           </div>
         </nav>
