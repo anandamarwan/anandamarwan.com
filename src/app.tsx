@@ -63,8 +63,8 @@ export function App() {
             </a>
           </div>
           <br />
-          <div className="space-y-4 flex justify-center">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 ">
+          <div className="space-y-4 flex justify-center mx-auto">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 ">
               <div className="grid gap-4">
                 <div>
                   <img
