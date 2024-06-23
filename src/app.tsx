@@ -1,48 +1,51 @@
 export function App() {
   return (
     <div className="p-10">
-      <header className="flex justify-between items-center">
-        <section>
-          <a href="/" className="text-xl text-white hover:text-blue-300">
-            🐼 Ananda Marwanaya Putra
-          </a>
-        </section>
-        <nav className="flex justify-end">
-          <ul className="flex flex-row gap-10 text-sm text-white">
-            <li>
-              <a href="">About</a>
-            </li>
-            <li>Contact</li>
-            <div className="flex flex-row gap-4">
+      <header>
+        <nav className="p-4 bg-slate-900 fixed w-full z-20 top-0 start-0 border-b">
+          <div className="flex justify-between items-center">
+            <a href="/" className="text-xl text-white hover:text-blue-300">
+              🐼 Ananda Marwanaya Putra
+            </a>
+            <ul className="flex flex-row gap-10 text-sm text-white">
               <li>
-                <a href="https://github.com/anandamarwan">
-                  <img
-                    className="w-5 h-5 hover:bg-blue-300"
-                    src="/images/github.svg"
-                    alt="GitHub"
-                  />
-                </a>
+                <a href="/">Home</a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/anandamarwan/">
-                  <img
-                    className="w-5 h-5 hover:bg-blue-300"
-                    src="/images/linkedin.svg"
-                    alt="LinkedIn"
-                  />
-                </a>
+                <a href="">About</a>
               </li>
-              <li>
-                <a href="https://www.instagram.com/anandamarwanayaputra/">
-                  <img
-                    className="w-5 h-5 hover:bg-blue-300"
-                    src="/images/instagram.svg"
-                    alt="Instagram"
-                  />
-                </a>
-              </li>
-            </div>
-          </ul>
+              <li>Contact</li>
+              <div className="flex flex-row gap-4">
+                <li>
+                  <a href="https://github.com/anandamarwan">
+                    <img
+                      className="w-5 h-5 hover:bg-blue-300"
+                      src="/images/github.svg"
+                      alt="GitHub"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/anandamarwan/">
+                    <img
+                      className="w-5 h-5 hover:bg-blue-300"
+                      src="/images/linkedin.svg"
+                      alt="LinkedIn"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/anandamarwanayaputra/">
+                    <img
+                      className="w-5 h-5 hover:bg-blue-300"
+                      src="/images/instagram.svg"
+                      alt="Instagram"
+                    />
+                  </a>
+                </li>
+              </div>
+            </ul>
+          </div>
         </nav>
       </header>
 
@@ -285,7 +288,42 @@ export function App() {
         </div>
       </main>
 
-      <footer></footer>
+      <footer className="bg-slate-800 mt-10 space-y-4">
+        <div className="flex justify-center">
+          <h1 className="text-3xl text-white">My Links</h1>
+        </div>
+        <nav className="flex justify-center">
+          <ul className="flex flex-row gap-4">
+            <li>
+              <a href="https://github.com/anandamarwan/">
+                <img
+                  className="w-10 h-10"
+                  src="/images/github.svg"
+                  alt="Github"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/anandamarwan/">
+                <img
+                  className="w-10 h-10"
+                  src="/images/linkedin.svg"
+                  alt="LinkedIn"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/anandamarwanayaputra/">
+                <img
+                  className="w-10 h-10"
+                  src="/images/instagram1.svg"
+                  alt="Instagram"
+                />
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </footer>
     </div>
   );
 }
