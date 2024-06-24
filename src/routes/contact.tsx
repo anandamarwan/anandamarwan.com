@@ -65,7 +65,7 @@ function SocialLinks() {
           <div className="max-w-3xl text-center p-10 rounded-lg bg-slate-800 space-y-4">
             <h1 className="text-4xl">Feeling adventurous?</h1>
             <h2 className="text-slate-400 text-xl text-center">
-              Let's continue on Twitter or LinkedIn or Telegram
+              Let's continue on Instagram or LinkedIn or Telegram
             </h2>
             <div>
               {links.map((link) => (
