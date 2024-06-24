@@ -4,9 +4,9 @@ import { FooterRoute } from "./footer";
 
 export function AboutRoute() {
   return (
-    <div className="p-10">
+    <div>
       <HeaderRoute />
-      <main className="mt-4">
+      <main className="mx-64">
         <Introduction />
         <Photo />
         <AboutMe />
@@ -53,7 +53,7 @@ interface SectionProps {
 
 function AboutMe() {
   return (
-    <div className="mx-10 lg:mx-80 text-left space-y-8">
+    <div className="mx-60 text-left space-y-8">
       <Section title="About Me">
         <p>👋 Hi There! I’m Ananda. Happy to see you!</p>
         <p>

@@ -1,6 +1,6 @@
 export function FooterRoute() {
   return (
-    <footer className="bg-slate-800 mt-10 space-y-4">
+    <footer className="bg-slate-800 w-full mt-10 space-y-4">
       <div className="flex justify-center">
         <h1 className="text-3xl text-white">My Links</h1>
       </div>
