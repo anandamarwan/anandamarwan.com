@@ -41,37 +41,13 @@ function Introduction() {
 }
 
 function Photo() {
-  const photos = [
-    { src: "images/toys.jpeg", alt: "Toys" },
-    { src: "/images/friends.jpeg", alt: "Friends" },
-    {
-      src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg",
-      alt: "Masonry Image 2",
-    },
-    { src: "/images/beach.jpeg", alt: "Beach" },
-    { src: "/images/anandamarwan.jpeg", alt: "Ananda Marwan" },
-    { src: "/images/beach.jpeg", alt: "Beach" },
-    { src: "/images/ananda-with-car.jpeg", alt: "Ananda with Car" },
-    { src: "/images/boys.jpeg", alt: "Boys" },
-    {
-      src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg",
-      alt: "Masonry Image 8",
-    },
-  ];
-
   return (
-    <div className="space-y-4 flex justify-center mx-auto">
-      <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-        {photos.map((photo, index) => (
-          <div key={index} className="grid gap-4">
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src={photo.src}
-              alt={photo.alt}
-            />
-          </div>
-        ))}
-      </div>
+    <div className="m-10 flex justify-center">
+      <img
+        className="max-w-4xl rounded-lg"
+        src="/images/photo-about.jpeg"
+        alt="Photo of Ananda Marwan"
+      />
     </div>
   );
 }
