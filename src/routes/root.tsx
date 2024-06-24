@@ -41,78 +41,36 @@ function Introduction() {
 }
 
 function Photo() {
+  const photos = [
+    { src: "images/toys.jpeg", alt: "Toys" },
+    { src: "/images/friends.jpeg", alt: "Friends" },
+    {
+      src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg",
+      alt: "Masonry Image 2",
+    },
+    { src: "/images/beach.jpeg", alt: "Beach" },
+    { src: "/images/anandamarwan.jpeg", alt: "Ananda Marwan" },
+    { src: "/images/beach.jpeg", alt: "Beach" },
+    { src: "/images/ananda-with-car.jpeg", alt: "Ananda with Car" },
+    { src: "/images/boys.jpeg", alt: "Boys" },
+    {
+      src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg",
+      alt: "Masonry Image 8",
+    },
+  ];
+
   return (
     <div className="space-y-4 flex justify-center mx-auto">
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-4 ">
-        <div className="grid gap-4">
-          <div>
+      <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+        {photos.map((photo, index) => (
+          <div key={index} className="grid gap-4">
             <img
               className="h-auto max-w-full rounded-lg"
-              src="images/toys.jpeg"
-              alt="Toys"
+              src={photo.src}
+              alt={photo.alt}
             />
           </div>
-          <div>
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="/images/friends.jpeg"
-              alt="Friends"
-            />
-          </div>
-          <div>
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-        <div className="grid gap-4">
-          <div>
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="/images/beach.jpeg"
-              alt="Beach"
-            />
-          </div>
-          <div>
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="/images/anandamarwan.jpeg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="/images/beach.jpeg"
-              alt="Beach"
-            />
-          </div>
-        </div>
-        <div className="grid gap-4">
-          <div>
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="/images/ananda-with-car.jpeg"
-              alt="Ananda with Car"
-            />
-          </div>
-          <div>
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="/images/boys.jpeg"
-              alt="Boys"
-            />
-          </div>
-          <div>
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg"
-              alt=""
-            />
-          </div>
-        </div>
+        ))}
       </div>
     </div>
   );
