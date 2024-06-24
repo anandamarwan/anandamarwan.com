@@ -135,7 +135,7 @@ function Portfolio() {
   ];
 
   return (
-    <div className="flex flex-col justify-center">
+    <div className="space-y-10 mt-10 flex flex-col justify-center">
       <h1 className="text-3xl font-bold flex justify-center">
         Portfolio of Apps
       </h1>
