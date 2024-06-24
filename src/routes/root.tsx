@@ -4,7 +4,7 @@ import { FooterRoute } from "./footer";
 
 export function RootRoute() {
   return (
-    <div className="">
+    <div>
       <HeaderRoute />
       <main className="mx-64">
         <Introduction />

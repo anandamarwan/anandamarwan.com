@@ -53,7 +53,7 @@ interface SectionProps {
 
 function AboutMe() {
   return (
-    <div className="mx-60 text-left space-y-8">
+    <div className="ml-24 text-left space-y-8">
       <Section title="About Me">
         <p>👋 Hi There! I’m Ananda. Happy to see you!</p>
         <p>
