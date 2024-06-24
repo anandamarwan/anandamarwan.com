@@ -9,7 +9,7 @@ export function FooterRoute() {
           <li>
             <a href="https://github.com/anandamarwan/">
               <img
-                className="w-10 h-10"
+                className="w-10 h-10  hover:bg-blue-300"
                 src="/images/icon-github.svg"
                 alt="Github"
               />
@@ -18,16 +18,16 @@ export function FooterRoute() {
           <li>
             <a href="https://www.linkedin.com/in/anandamarwan/">
               <img
-                className="w-10 h-10"
+                className="w-10 h-10  hover:bg-blue-300"
                 src="/images/icon-linkedin.svg"
                 alt="LinkedIn"
               />
             </a>
           </li>
-          <li>
+          <li className=" hover:bg-blue-300">
             <a href="https://www.instagram.com/anandamarwanayaputra/">
               <img
-                className="w-10 h-10"
+                className="w-10 h-10 "
                 src="/images/icon-instagram.svg"
                 alt="Instagram"
               />
@@ -36,7 +36,7 @@ export function FooterRoute() {
           <li>
             <a href="https://t.me/anandamarwan">
               <img
-                className="w-10 h-10"
+                className="w-10 h-10  hover:bg-blue-300"
                 src="/images/icon-telegram.svg"
                 alt="Telegram"
               />

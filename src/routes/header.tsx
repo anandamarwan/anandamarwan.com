@@ -8,19 +8,19 @@ export function HeaderRoute() {
           <a href="/" className="text-xl text-white hover:text-blue-300">
             🐼 Ananda Marwanaya Putra
           </a>
-          <ul className="flex flex-row gap-10 text-sm text-white">
+          <ul className="flex flex-row gap-10 text-sm text-white ">
             <li>
-              <Link to={`/`} className="text-xl">
+              <Link to={`/`} className="text-xl  hover:text-blue-300">
                 Home
               </Link>
             </li>
             <li>
-              <Link to={`/about`} className="text-xl">
+              <Link to={`/about`} className="text-xl  hover:text-blue-300">
                 About
               </Link>
             </li>
             <li>
-              <Link to={`/contact`} className="text-xl">
+              <Link to={`/contact`} className="text-xl  hover:text-blue-300">
                 Contact
               </Link>
             </li>
