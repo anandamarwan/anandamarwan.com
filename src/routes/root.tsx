@@ -6,247 +6,252 @@ export function RootRoute() {
   return (
     <div className="p-10">
       <HeaderRoute />
-
       <main className="mt-4">
-        <section className="m-20 flex flex-col text-center">
-          <header>
-            <h1 className="text-6xl sm:text-7xl md:text-8xl">
-              <span className="text-blue-100">Hi! I'm </span>
-              <span className="text-blue-400">Ananda</span>
-            </h1>
-          </header>
-
-          <div className="mt-5">
-            <p className="text-xl text-slate-400">
-              I’m a financial consultant who has 3 years of experience in the
-              capital markets and i'm currently learning full stack developer at
-              Bearmentor bootcamp.
-            </p>
-          </div>
-          <div className="mt-5">
-            <a
-              href="https://github.com/anandamarwan"
-              className="focus:outline-none text-white bg-stone-800 hover:bg-stone-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:focus:ring-yellow-900"
-            >
-              GitHub
-            </a>
-            <a
-              href="https://www.linkedin.com/in/anandamarwan/"
-              className="focus:outline-none text-white bg-blue-700 hover:bg-blue-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:focus:ring-yellow-900"
-            >
-              LinkedIn
-            </a>
-            <a
-              href="https://www.instagram.com/anandamarwanayaputra/"
-              className="focus:outline-none text-white bg-red-600 hover:bg-red-400 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:focus:ring-yellow-900"
-            >
-              Instagram
-            </a>
-          </div>
-          <br />
-          <div className="space-y-4 flex justify-center mx-auto">
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 ">
-              <div className="grid gap-4">
-                <div>
-                  <img
-                    className="h-auto max-w-full rounded-lg"
-                    src="images/toys.jpeg"
-                    alt="Toys"
-                  />
-                </div>
-                <div>
-                  <img
-                    className="h-auto max-w-full rounded-lg"
-                    src="/images/friends.jpeg"
-                    alt="Friends"
-                  />
-                </div>
-                <div>
-                  <img
-                    className="h-auto max-w-full rounded-lg"
-                    src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div className="grid gap-4">
-                <div>
-                  <img
-                    className="h-auto max-w-full rounded-lg"
-                    src="/images/beach.jpeg"
-                    alt="Beach"
-                  />
-                </div>
-                <div>
-                  <img
-                    className="h-auto max-w-full rounded-lg"
-                    src="/images/anandamarwan.jpeg"
-                    alt=""
-                  />
-                </div>
-                <div>
-                  <img
-                    className="h-auto max-w-full rounded-lg"
-                    src="/images/beach.jpeg"
-                    alt="Beach"
-                  />
-                </div>
-              </div>
-              <div className="grid gap-4">
-                <div>
-                  <img
-                    className="h-auto max-w-full rounded-lg"
-                    src="/images/ananda-with-car.jpeg"
-                    alt="Ananda with Car"
-                  />
-                </div>
-                <div>
-                  <img
-                    className="h-auto max-w-full rounded-lg"
-                    src="/images/boys.jpeg"
-                    alt="Boys"
-                  />
-                </div>
-                <div>
-                  <img
-                    className="h-auto max-w-full rounded-lg"
-                    src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg"
-                    alt=""
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <div className="space-y-10 flex flex-col justify-center">
-          <h1 className="text-3xl font-bold flex justify-center">
-            Technical Skills
-          </h1>
-
-          <div className="flex flex-row gap-20 justify-center">
-            <img
-              className="w-40 h-40 bg-slate-400"
-              src="/images/html.svg"
-              alt="HTML"
-            />
-
-            <img
-              className="w-40 h-40  bg-slate-400"
-              src="/images/css.svg"
-              alt="CSS"
-            />
-
-            <img
-              className="w-40 h-40 bg-slate-400"
-              src="/images/javascript1.svg"
-              alt="JavaScript1"
-            />
-
-            <img
-              className="w-40 h-40 bg-slate-400"
-              src="/images/typescript.svg"
-              alt="TypeScript"
-            />
-
-            <img
-              className="w-40 h-40 bg-slate-400"
-              src="/images/react.svg"
-              alt="React"
-            />
-          </div>
-        </div>
-
-        <div className="flex justify-center p-10">
-          <h1 className="text-3xl font-bold">Portfolio of Apps</h1>
-        </div>
-
-        <div className="flex flex-row justify-center gap-10">
-          <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
-            <a href="https://contacts.anandamarwan.com/">
-              <img
-                className="rounded-t-lg"
-                src="/images/contacts.png"
-                alt="Contact"
-              />
-            </a>
-            <div className="p-5">
-              <a href="https://contacts.anandamarwan.com/">
-                <h1 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                  Contacts
-                </h1>
-              </a>
-              <p className="font-normal text-gray-700 dark:text-gray-400">
-                This Website made for people can control their contacts.
-              </p>
-              <a
-                href="https://contacts.anandamarwan.com/"
-                className="inline-flex items-center px-5 py-2.5 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-              >
-                Read more
-                <svg
-                  className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
-          </div>
-
-          <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
-            <a href="https://v2.daily-activity.anandamarwan.com/">
-              <img
-                className="rounded-t-lg"
-                src="/images/daily-activity.png"
-                alt="Daily Activity"
-              />
-            </a>
-            <div className="p-5">
-              <a href="https://v2.daily-activity.anandamarwan.com/">
-                <h1 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                  Daily Activity
-                </h1>
-              </a>
-              <p className="font-normal text-gray-700 dark:text-gray-400">
-                Daily Activity app to help with your study or productivity:
-              </p>
-              <a
-                href="https://v2.daily-activity.anandamarwan.com/"
-                className="inline-flex items-center px-5 py-2.5 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-              >
-                Read more
-                <svg
-                  className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
-          </div>
-        </div>
+        <Introduction />
+        <Photo />
+        <Skills />
+        <Portfolio />
       </main>
-
       <FooterRoute />
+    </div>
+  );
+}
+
+function Introduction() {
+  return (
+    <section className="m-20 flex flex-col text-center">
+      <header>
+        <h1 className="text-6xl sm:text-7xl md:text-8xl">
+          <span className="text-blue-100">Hi! I'm </span>
+          <span className="text-blue-400">Ananda</span>
+        </h1>
+      </header>
+      <div className="mt-5">
+        <p className="text-xl text-slate-400">
+          I’m a financial consultant with 3 years of experience in the capital
+          markets and I'm currently learning full stack development at
+          Bearmentor bootcamp.
+        </p>
+      </div>
+      <div className="mt-5">
+        <SocialLinks />
+      </div>
+    </section>
+  );
+}
+
+function Photo() {
+  return (
+    <div className="space-y-4 flex justify-center mx-auto">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4 ">
+        <div className="grid gap-4">
+          <div>
+            <img
+              className="h-auto max-w-full rounded-lg"
+              src="images/toys.jpeg"
+              alt="Toys"
+            />
+          </div>
+          <div>
+            <img
+              className="h-auto max-w-full rounded-lg"
+              src="/images/friends.jpeg"
+              alt="Friends"
+            />
+          </div>
+          <div>
+            <img
+              className="h-auto max-w-full rounded-lg"
+              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div className="grid gap-4">
+          <div>
+            <img
+              className="h-auto max-w-full rounded-lg"
+              src="/images/beach.jpeg"
+              alt="Beach"
+            />
+          </div>
+          <div>
+            <img
+              className="h-auto max-w-full rounded-lg"
+              src="/images/anandamarwan.jpeg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              className="h-auto max-w-full rounded-lg"
+              src="/images/beach.jpeg"
+              alt="Beach"
+            />
+          </div>
+        </div>
+        <div className="grid gap-4">
+          <div>
+            <img
+              className="h-auto max-w-full rounded-lg"
+              src="/images/ananda-with-car.jpeg"
+              alt="Ananda with Car"
+            />
+          </div>
+          <div>
+            <img
+              className="h-auto max-w-full rounded-lg"
+              src="/images/boys.jpeg"
+              alt="Boys"
+            />
+          </div>
+          <div>
+            <img
+              className="h-auto max-w-full rounded-lg"
+              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function SocialLinks() {
+  const links = [
+    {
+      href: "https://github.com/anandamarwan",
+      text: "GitHub",
+      bg: "bg-stone-800",
+      hover: "hover:bg-stone-500",
+    },
+    {
+      href: "https://www.linkedin.com/in/anandamarwan/",
+      text: "LinkedIn",
+      bg: "bg-blue-700",
+      hover: "hover:bg-blue-500",
+    },
+    {
+      href: "https://www.instagram.com/anandamarwanayaputra/",
+      text: "Instagram",
+      bg: "bg-red-600",
+      hover: "hover:bg-red-400",
+    },
+  ];
+
+  return (
+    <>
+      {links.map((link) => (
+        <a
+          key={link.href}
+          href={link.href}
+          className={`focus:outline-none text-white ${link.bg} ${link.hover} focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:focus:ring-yellow-900`}
+        >
+          {link.text}
+        </a>
+      ))}
+    </>
+  );
+}
+
+function Skills() {
+  const skills = [
+    { src: "/images/html.svg", alt: "HTML" },
+    { src: "/images/css.svg", alt: "CSS" },
+    { src: "/images/javascript1.svg", alt: "JavaScript" },
+    { src: "/images/typescript.svg", alt: "TypeScript" },
+    { src: "/images/react.svg", alt: "React" },
+  ];
+
+  return (
+    <div className="space-y-10 flex flex-col justify-center">
+      <h1 className="text-3xl font-bold flex justify-center">
+        Technical Skills
+      </h1>
+      <div className="flex flex-row gap-20 justify-center">
+        {skills.map((skill) => (
+          <img
+            key={skill.alt}
+            className="w-40 h-40 bg-slate-400"
+            src={skill.src}
+            alt={skill.alt}
+          />
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function Portfolio() {
+  const projects = [
+    {
+      href: "https://contacts.anandamarwan.com/",
+      src: "/images/contacts.png",
+      title: "Contacts",
+      description: "This Website made for people can control their contacts.",
+    },
+    {
+      href: "https://v2.daily-activity.anandamarwan.com/",
+      src: "/images/daily-activity.png",
+      title: "Daily Activity",
+      description:
+        "Daily Activity app to help with your study or productivity.",
+    },
+  ];
+
+  return (
+    <div className="flex flex-col justify-center">
+      <h1 className="text-3xl font-bold flex justify-center">
+        Portfolio of Apps
+      </h1>
+      <div className="flex flex-row justify-center gap-10">
+        {projects.map((project) => (
+          <div
+            key={project.title}
+            className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700"
+          >
+            <a href={project.href}>
+              <img
+                className="rounded-t-lg"
+                src={project.src}
+                alt={project.title}
+              />
+            </a>
+            <div className="p-5">
+              <a href={project.href}>
+                <h1 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  {project.title}
+                </h1>
+              </a>
+              <p className="font-normal text-gray-700 dark:text-gray-400">
+                {project.description}
+              </p>
+              <a
+                href={project.href}
+                className="inline-flex items-center px-5 py-2.5 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              >
+                Read more
+                <svg
+                  className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 14 10"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M1 5h12m0 0L9 1m4 4L9 9"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
