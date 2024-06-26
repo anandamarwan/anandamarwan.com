@@ -1,13 +1,13 @@
-export function FooterRoute() {
+export function Footer() {
   return (
-    <footer className="bg-slate-800 w-full mt-10 space-y-4">
+    <footer className="bg-slate-200 dark:bg-slate-800 w-full mt-20 py-20 space-y-4">
       <div className="flex justify-center">
         <h1 className="text-3xl text-white">My Links</h1>
       </div>
       <nav className="flex flex-col space-y-4">
         <ul className="flex flex-row justify-center gap-20 items-center">
           <li>
-            <a href="https://github.com/anandamarwan/">
+            <a href="https://github.com/anandamarwan">
               <img
                 className="w-10 h-10  hover:bg-blue-300"
                 src="/images/icon-github.svg"

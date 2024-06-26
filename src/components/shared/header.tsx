@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-export function HeaderRoute() {
+export function Header() {
   return (
     <header>
       <nav className="p-4 bg-slate-900 fixed w-full z-20 top-0 start-0 border-b">
