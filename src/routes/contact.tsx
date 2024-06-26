@@ -1,16 +1,9 @@
-import { HeaderRoute } from "./header";
-import { FooterRoute } from "./footer";
-
 export function ContactRoute() {
   return (
-    <div>
-      <HeaderRoute />
-      <main className="mx-64">
-        <Introduction />
-        <SocialLinks />
-      </main>
-      <FooterRoute />
-    </div>
+    <>
+      <Introduction />
+      <SocialLinks />
+    </>
   );
 }
 

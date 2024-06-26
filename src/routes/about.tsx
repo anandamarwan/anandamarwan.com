@@ -1,18 +1,10 @@
-import { ReactNode } from "react";
-import { HeaderRoute } from "./header";
-import { FooterRoute } from "./footer";
-
 export function AboutRoute() {
   return (
-    <div>
-      <HeaderRoute />
-      <main className="mx-64">
-        <Introduction />
-        <Photo />
-        <AboutMe />
-      </main>
-      <FooterRoute />
-    </div>
+    <>
+      <Introduction />
+      <Photo />
+      <AboutMe />
+    </>
   );
 }
 
@@ -48,7 +40,7 @@ function Photo() {
 
 interface SectionProps {
   title: string;
-  children: ReactNode;
+  children: React.ReactNode;
 }
 
 function AboutMe() {
