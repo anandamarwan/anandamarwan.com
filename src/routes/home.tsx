@@ -128,7 +128,7 @@ function Portfolio() {
       description: "This Website made for people can control their contacts.",
     },
     {
-      href: "https://v2.daily-activity.anandamarwan.com/",
+      href: "https://daily-activity.anandamarwan.com/",
       src: "/images/daily-activity.png",
       title: "Daily Activity",
       description:
